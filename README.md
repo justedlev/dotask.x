@@ -8,8 +8,8 @@
 [![language](https://img.shields.io/badge/Java%2017-e6892e)](https://github.com/Justedlev/restjob.x)
 [![framework](https://img.shields.io/badge/Spring%20Framework%206-6cb52d)](https://github.com/Justedlev/restjob.x)
 [![framework](https://img.shields.io/badge/Spring%20Boot%203-6cb52d)](https://github.com/Justedlev/restjob.x)
-[![license](https://img.shields.io/github/license/Justedlev/bridgewayhub)](https://github.com/Justedlev/restjob.x)
-[![stars](https://img.shields.io/github/stars/Justedlev/bridgewayhub)](https://github.com/Justedlev/restjob.x/star)
-[![issues](https://img.shields.io/github/issues/Justedlev/bridgewayhub)](https://github.com/Justedlev/restjob.x/issues)
+[![license](https://img.shields.io/github/license/Justedlev/restjob.x)](https://github.com/Justedlev/restjob.x)
+[![stars](https://img.shields.io/github/stars/Justedlev/restjob.x)](https://github.com/Justedlev/restjob.x/star)
+[![issues](https://img.shields.io/github/issues/Justedlev/restjob.x)](https://github.com/Justedlev/restjob.x/issues)
 
 </div>
