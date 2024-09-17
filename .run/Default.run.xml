@@ -4,11 +4,11 @@
     <option name="envFilePaths">
       <option value="$PROJECT_DIR$/.env" />
     </option>
-    <module name="restjobx" />
+    <module name="dotaskx" />
     <selectedOptions>
       <option name="environmentVariables" />
     </selectedOptions>
-    <option name="SPRING_BOOT_MAIN_CLASS" value="dev.justedlev.restjobx.RestJobXApplication" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="io.justedlev.dotaskx.DoTaskXApplication" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>
