@@ -37,7 +37,7 @@
         <maven.compiler.target>${java.version}</maven.compiler.target>
 		<project.build.sourceEncoding>${encoding}</project.build.sourceEncoding>
 
-		<spring-cloud.version>2023.0.3</spring-cloud.version>
+		<spring-cloud.version>2024.0.0</spring-cloud.version>
 		<springdoc.openapi.version>2.6.0</springdoc.openapi.version>
 		<apache.commons.lang3.version>3.17.0</apache.commons.lang3.version>
 		<apache.commons.collections4.version>4.5.0-M2</apache.commons.collections4.version>
