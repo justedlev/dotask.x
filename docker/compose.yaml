@@ -1,0 +1,21 @@
+name: justedlev-msrv
+services:
+  dotaskx.justedlev.io:
+    tty: true
+    env_file:
+      - .env
+    container_name: dotaskx
+    image: justedlev/dotaskx:latest
+    build:
+      context: ../
+      dockerfile: docker/Dockerfile
+    ports:
+      - "8765:5000"
+      - "8766:5005"
+    volumes:
+      - ../logs:${LOGGING_FILE_PATH}
+    deploy:
+      resources:
+        limits:
+          cpus: "0.75"
+          memory: 512MB

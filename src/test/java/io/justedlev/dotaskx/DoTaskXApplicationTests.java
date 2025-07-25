@@ -1,10 +1,10 @@
-package dev.justedlev.restjobx;
+package io.justedlev.dotaskx;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RestJobXApplicationTests {
+class DoTaskXApplicationTests {
 
 	@Test
 	void contextLoads() {

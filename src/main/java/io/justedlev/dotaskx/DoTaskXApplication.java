@@ -1,4 +1,4 @@
-package dev.justedlev.restjobx;
+package io.justedlev.dotaskx;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @EnableDiscoveryClient
 @SpringBootApplication
-public class RestJobXApplication {
+public class DoTaskXApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RestJobXApplication.class, args);
+		SpringApplication.run(DoTaskXApplication.class, args);
 	}
 
 }

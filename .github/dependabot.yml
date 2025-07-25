@@ -1,8 +1,8 @@
 version: 2
 updates:
   - package-ecosystem: "maven"
-    target-branch: "dev"
     directory: "/"
+    target-branch: "dev"
     reviewers:
       - "justedlev"
     assignees:
@@ -11,8 +11,18 @@ updates:
       interval: "weekly"
 
   - package-ecosystem: "github-actions"
-    target-branch: "dev"
     directory: "/"
+    target-branch: "dev"
+    reviewers:
+      - "justedlev"
+    assignees:
+      - "justedlev"
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "docker"
+    directory: "docker"
+    target-branch: "dev"
     reviewers:
       - "justedlev"
     assignees:

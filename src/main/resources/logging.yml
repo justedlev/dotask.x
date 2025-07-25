@@ -1,4 +1,6 @@
 logging:
+  threshold:
+    file: INFO
   file:
     path: ./.logs
     name: ${logging.file.path}/latest.log

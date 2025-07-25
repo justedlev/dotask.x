@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <property name="CONSOLE_LOG_THRESHOLD" value="INFO"/>
+
+    <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
+    <include resource="org/springframework/boot/logging/logback/console-appender.xml"/>
+    <include resource="io/justedlev/logging/logback/properties.xml"/>
+    <include resource="io/justedlev/logging/logback/file-appender.xml"/>
+    <include resource="io/justedlev/logging/logback/debug-file-appender.xml"/>
+
+    <!-- Root Logger Configuration -->
+    <root level="DEBUG">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="FILE"/>
+        <appender-ref ref="DEBUG_FILE"/>
+    </root>
+</configuration>
